@@ -1,0 +1,23 @@
+h3
+{
+	color: #0ef;
+	font-weight: 600;
+	font-size: 300%;
+}
+
+
+li[class]
+{
+	font-size: 200%;
+}
+
+li[class='a']
+{
+	background-color: yellow
+	;
+}
+
+li[class~='a']
+{
+	color: red;
+}
